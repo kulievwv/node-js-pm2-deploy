@@ -5,7 +5,7 @@ module.exports = {
 
   deploy: {
     production: {
-      user: process.env.DEPLOY_USER,       /
+      user: process.env.DEPLOY_USER,
       host: process.env.DEPLOY_HOST,
       ref:  process.env.DEPLOY_REF || 'origin/main',
       repo: process.env.DEPLOY_REPO,
